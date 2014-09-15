@@ -1,0 +1,19 @@
+ul {list-style: none;}
+
+.fizzbuzz {
+	color: red;
+}
+
+.fizz {
+	color: blue;
+}
+
+.buzz {
+	color: green;
+}
+
+.why {
+	font-size: 0.9em;
+	color: #ccc;
+	display: none;
+}
