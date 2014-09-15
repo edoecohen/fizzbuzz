@@ -16,6 +16,9 @@ $(document).ready(function(){
 		if (isNaN(textValue)) {
 			alert("Please only enter numeric digits. No letters. No decimals. Thanks!");
 		}
+		else if (textValue % 1 != 0) {
+			alert("Please no numbers with decimals. Thanks!");
+		}
 		else {
 			textValue += 1;
 			$("ul").empty();
