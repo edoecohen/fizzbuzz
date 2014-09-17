@@ -5,8 +5,8 @@ $(document).ready(function(){
 	// Allow entry with Enter key
 	$("input").keydown(function (e) {
 		if (e.keyCode == 13) { 
+			e.preventDefault();
 			$("#text_value").click();
-			event.preventDefault();
 		}
 	});
 
